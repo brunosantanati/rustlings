@@ -1,0 +1,23 @@
+In the project folder (rustlings) we can run:
+
+rustlings watch
+This will try to verify the completion of every exercise in a predetermined order (what we think is best for newcomers). 
+It will also rerun automatically every time you change a file in the exercises/ directory. If you want to only run it once, you can use:
+
+rustlings verify
+This will do the same as watch, but it'll quit after running.
+
+rustlings run myExercise1
+In case you want to go by your own order, or want to only verify a single exercise.
+
+rustlings run next
+Use this command to run the next unsolved exercise in the course.
+
+rustlings hint myExercise1
+In case you get stuck, you can run this command to get a hint for your exercise.
+
+rustlings hint next
+You can also get the hint for the next unsolved exercise with this command.
+
+rustlings list
+Use this command to check your progress.
